@@ -1,0 +1,57 @@
+[
+  {
+    "repo": "mlx-community/Real-ESRGAN-animevideov3",
+    "file": "model.safetensors",
+    "revision": "e5ef3093b04690351f65dde6e0a7118a73b68360",
+    "local": "realesr-animevideov3.mlx.safetensors",
+    "bytes": 1247050,
+    "sha256": "c023b38444ac2b54642126c75054abb5e0b27d0a460eca563757d974fe18e089",
+    "license": "BSD-3-Clause",
+    "role": "weights (fp16, MLX layout) converted from the official xinntao release",
+    "url": "https://huggingface.co/mlx-community/Real-ESRGAN-animevideov3/blob/e5ef3093b04690351f65dde6e0a7118a73b68360/model.safetensors"
+  },
+  {
+    "repo": "skillsafe-ai/realesr-animevideov3",
+    "file": "reference/input-64x64.npy",
+    "revision": "185e9142d439d17e3fb99395600fb7d08af09de5",
+    "local": "realesr-animevideov3.ref-input.npy",
+    "bytes": 49280,
+    "sha256": "3a802c3490a15a06447188fc2bf915b323e0976de84376cadd93af19b8bfde20",
+    "license": "BSD-3-Clause",
+    "role": "reference input for validating the reconstruction",
+    "url": "https://huggingface.co/skillsafe-ai/realesr-animevideov3/blob/185e9142d439d17e3fb99395600fb7d08af09de5/reference/input-64x64.npy"
+  },
+  {
+    "repo": "skillsafe-ai/realesr-animevideov3",
+    "file": "reference/output-64x64.npy",
+    "revision": "185e9142d439d17e3fb99395600fb7d08af09de5",
+    "local": "realesr-animevideov3.ref-output.npy",
+    "bytes": 786560,
+    "sha256": "e283afb54336ce6dd7d886ff81667f2b39ff657830a4e93f48a23f350d860638",
+    "license": "BSD-3-Clause",
+    "role": "reference output for validating the reconstruction",
+    "url": "https://huggingface.co/skillsafe-ai/realesr-animevideov3/blob/185e9142d439d17e3fb99395600fb7d08af09de5/reference/output-64x64.npy"
+  },
+  {
+    "repo": "clavidk/realesr-general-x4v3",
+    "file": "realesr-general-x4v3.pth",
+    "revision": "6aecc46ba1fc8cfdfe8643f090782e2e62c044cd",
+    "local": "realesr-general-x4v3.pth",
+    "bytes": 4885111,
+    "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+    "license": "BSD-3-Clause",
+    "role": "original PyTorch checkpoint from the xinntao release",
+    "url": "https://huggingface.co/clavidk/realesr-general-x4v3/blob/6aecc46ba1fc8cfdfe8643f090782e2e62c044cd/realesr-general-x4v3.pth"
+  },
+  {
+    "repo": "Phips/2xNomosUni_span_multijpg",
+    "file": "2xNomosUni_span_multijpg.safetensors",
+    "revision": "ed6111c4cabdaf42b75e6535600d5370cce9e4e2",
+    "local": "2xNomosUni_span_multijpg.safetensors",
+    "bytes": 4461056,
+    "sha256": "bee2a9c082f2b8f6e7f5db504b36593c24a1a959511f587114c399ca58b9c92c",
+    "license": "CC-BY-4.0",
+    "role": "SPAN x2 trained with JPEG + multiscale degradations (by Philip Hofmann)",
+    "url": "https://huggingface.co/Phips/2xNomosUni_span_multijpg/blob/ed6111c4cabdaf42b75e6535600d5370cce9e4e2/2xNomosUni_span_multijpg.safetensors"
+  }
+]

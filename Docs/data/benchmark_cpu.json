@@ -1,0 +1,86 @@
+[
+  {
+    "averageFPS" : 8.19444027701124,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuOnly",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 360,
+        "width" : 640
+      },
+      "metalOutputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "modelID" : "span-nomosuni-x2-flex",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 219.32452315790042,
+    "firstRunSeconds" : 0.1337914583273232,
+    "framesDropped" : 260,
+    "framesOffered" : 301,
+    "framesProcessed" : 41,
+    "gpuBusyPercent" : 1.6162292665482636,
+    "inferenceMeanMs" : 113.19259959613768,
+    "inferenceMedianMs" : 110.34637503325939,
+    "inferenceP95Ms" : 128.59137495979667,
+    "loadSeconds" : 0.008152961730957031,
+    "modelName" : "SPAN 2x NomosUni (multi-JPEG) ×2",
+    "outputSize" : {
+      "height" : 720,
+      "width" : 1280
+    },
+    "peakMemoryBytes" : 281199432,
+    "postprocessGPUMs" : 1.8369166646152735,
+    "preprocessGPUMs" : 0.06725010462105274,
+    "totalLatencyMedianMs" : 113.13495831564069
+  },
+  {
+    "averageFPS" : 8.593627180868387,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuOnly",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 360,
+        "width" : 640
+      },
+      "metalOutputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "modelID" : "realesr-animevideov3-x2-flex",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 99.48419198160825,
+    "firstRunSeconds" : 0.11548520834185183,
+    "framesDropped" : 258,
+    "framesOffered" : 301,
+    "framesProcessed" : 43,
+    "gpuBusyPercent" : 1.681010907596551,
+    "inferenceMeanMs" : 106.35873837786359,
+    "inferenceMedianMs" : 105.5902917869389,
+    "inferenceP95Ms" : 112.16670833528042,
+    "loadSeconds" : 0.007703065872192383,
+    "modelName" : "Real-ESRGAN AnimeVideo v3 ×2",
+    "outputSize" : {
+      "height" : 720,
+      "width" : 1280
+    },
+    "peakMemoryBytes" : 201212672,
+    "postprocessGPUMs" : 1.9564998801797628,
+    "preprocessGPUMs" : 0.06854184903204441,
+    "totalLatencyMedianMs" : 108.90679154545069
+  }
+]

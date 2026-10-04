@@ -1,0 +1,768 @@
+{
+  "machine": {
+    "chip": "Apple M4",
+    "macos": "26.6.2",
+    "coremltools": "9.0",
+    "torch": "2.14.1"
+  },
+  "models": {
+    "realesr-animevideov3-x2": {
+      "name": "Real-ESRGAN AnimeVideo v3",
+      "family": "realesr-animevideov3",
+      "scale": 2,
+      "coreml_vs_pytorch_psnr": 74.87339072484397,
+      "package_mb": 1.281696
+    },
+    "realesr-general-x4v3-x2": {
+      "name": "Real-ESRGAN General v3",
+      "family": "realesr-general-x4v3",
+      "scale": 2,
+      "coreml_vs_pytorch_psnr": 72.42120584047964,
+      "package_mb": 2.496833
+    },
+    "span-nomosuni-x2": {
+      "name": "SPAN 2x NomosUni (multi-JPEG)",
+      "family": "span-nomosuni",
+      "scale": 2,
+      "coreml_vs_pytorch_psnr": 58.49974157316545,
+      "package_mb": 0.864842
+    }
+  },
+  "quality": [
+    {
+      "psnr": 34.46647750334737,
+      "ssim": 0.9224488139152527,
+      "detail": 0.5161652141636752,
+      "image": "aerial_4k",
+      "degradation": "bicubic",
+      "method": "Bilinear"
+    },
+    {
+      "psnr": 35.66994615272466,
+      "ssim": 0.9397589564323425,
+      "detail": 0.6089717323172742,
+      "image": "aerial_4k",
+      "degradation": "bicubic",
+      "method": "Bicubic"
+    },
+    {
+      "psnr": 36.20992385716902,
+      "ssim": 0.9461151957511902,
+      "detail": 0.6513465239873361,
+      "image": "aerial_4k",
+      "degradation": "bicubic",
+      "method": "Lanczos"
+    },
+    {
+      "psnr": 33.68445648913052,
+      "ssim": 0.9270618557929993,
+      "detail": 0.6306964165088775,
+      "image": "aerial_4k",
+      "degradation": "bicubic",
+      "method": "Real-ESRGAN AnimeVideo v3"
+    },
+    {
+      "psnr": 32.91506689117477,
+      "ssim": 0.9170305728912354,
+      "detail": 0.8126214599708845,
+      "image": "aerial_4k",
+      "degradation": "bicubic",
+      "method": "Real-ESRGAN General v3"
+    },
+    {
+      "psnr": 31.389191452624004,
+      "ssim": 0.9417231678962708,
+      "detail": 0.791366817343827,
+      "image": "aerial_4k",
+      "degradation": "bicubic",
+      "method": "SPAN 2x NomosUni (multi-JPEG)"
+    },
+    {
+      "psnr": 32.21883700045995,
+      "ssim": 0.8640521168708801,
+      "detail": 0.48526336961846894,
+      "image": "aerial_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Bilinear"
+    },
+    {
+      "psnr": 32.33714416425136,
+      "ssim": 0.866466760635376,
+      "detail": 0.5605110540006499,
+      "image": "aerial_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Bicubic"
+    },
+    {
+      "psnr": 32.33102165917628,
+      "ssim": 0.8665705323219299,
+      "detail": 0.5935768109280465,
+      "image": "aerial_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Lanczos"
+    },
+    {
+      "psnr": 31.255897402908445,
+      "ssim": 0.868290364742279,
+      "detail": 0.5999004207009199,
+      "image": "aerial_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Real-ESRGAN AnimeVideo v3"
+    },
+    {
+      "psnr": 29.890783826646683,
+      "ssim": 0.8384316563606262,
+      "detail": 0.7116323687932978,
+      "image": "aerial_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Real-ESRGAN General v3"
+    },
+    {
+      "psnr": 29.301318343326983,
+      "ssim": 0.8527731895446777,
+      "detail": 0.7617816379630612,
+      "image": "aerial_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "SPAN 2x NomosUni (multi-JPEG)"
+    },
+    {
+      "psnr": 48.46492023911833,
+      "ssim": 0.9899140000343323,
+      "detail": 0.34893657364638725,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic",
+      "method": "Bilinear"
+    },
+    {
+      "psnr": 49.02253964656647,
+      "ssim": 0.9902496933937073,
+      "detail": 0.365585030516441,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic",
+      "method": "Bicubic"
+    },
+    {
+      "psnr": 49.214962771438806,
+      "ssim": 0.9903541207313538,
+      "detail": 0.3717809997092445,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic",
+      "method": "Lanczos"
+    },
+    {
+      "psnr": 35.857670404246996,
+      "ssim": 0.9882968664169312,
+      "detail": 0.36145673219187113,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic",
+      "method": "Real-ESRGAN AnimeVideo v3"
+    },
+    {
+      "psnr": 45.17827247948796,
+      "ssim": 0.988543689250946,
+      "detail": 0.40313264333665316,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic",
+      "method": "Real-ESRGAN General v3"
+    },
+    {
+      "psnr": 33.370746059639934,
+      "ssim": 0.9840384125709534,
+      "detail": 0.854592884350183,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic",
+      "method": "SPAN 2x NomosUni (multi-JPEG)"
+    },
+    {
+      "psnr": 44.78873980771478,
+      "ssim": 0.9840627908706665,
+      "detail": 0.21386429063178974,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Bilinear"
+    },
+    {
+      "psnr": 44.63704671867554,
+      "ssim": 0.9831238389015198,
+      "detail": 0.22762529220496155,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Bicubic"
+    },
+    {
+      "psnr": 44.55693752305919,
+      "ssim": 0.9827619791030884,
+      "detail": 0.23711978996889302,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Lanczos"
+    },
+    {
+      "psnr": 35.277099053365404,
+      "ssim": 0.9852025508880615,
+      "detail": 0.365259401559085,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Real-ESRGAN AnimeVideo v3"
+    },
+    {
+      "psnr": 42.37607090176974,
+      "ssim": 0.987006425857544,
+      "detail": 0.4249443291300484,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Real-ESRGAN General v3"
+    },
+    {
+      "psnr": 33.734514820519415,
+      "ssim": 0.9820120930671692,
+      "detail": 0.7729364628414928,
+      "image": "sonoma_crop_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "SPAN 2x NomosUni (multi-JPEG)"
+    },
+    {
+      "psnr": 32.11152324323089,
+      "ssim": 0.8915418982505798,
+      "detail": 0.4393139919723214,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic",
+      "method": "Bilinear"
+    },
+    {
+      "psnr": 32.903670986113,
+      "ssim": 0.9120361804962158,
+      "detail": 0.5281250544148577,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic",
+      "method": "Bicubic"
+    },
+    {
+      "psnr": 33.209148821499504,
+      "ssim": 0.919356644153595,
+      "detail": 0.5694951005692908,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic",
+      "method": "Lanczos"
+    },
+    {
+      "psnr": 31.980821112391485,
+      "ssim": 0.8936120867729187,
+      "detail": 0.5399332612985848,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic",
+      "method": "Real-ESRGAN AnimeVideo v3"
+    },
+    {
+      "psnr": 31.067730337567554,
+      "ssim": 0.8974039554595947,
+      "detail": 0.6113216001497231,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic",
+      "method": "Real-ESRGAN General v3"
+    },
+    {
+      "psnr": 31.110013505022028,
+      "ssim": 0.9082714319229126,
+      "detail": 0.645697634032019,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic",
+      "method": "SPAN 2x NomosUni (multi-JPEG)"
+    },
+    {
+      "psnr": 30.39230807201254,
+      "ssim": 0.8149288892745972,
+      "detail": 0.3862008041502436,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Bilinear"
+    },
+    {
+      "psnr": 30.555206280107875,
+      "ssim": 0.8182754516601562,
+      "detail": 0.44478335808558594,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Bicubic"
+    },
+    {
+      "psnr": 30.58946284141877,
+      "ssim": 0.8186354637145996,
+      "detail": 0.47119737676189494,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Lanczos"
+    },
+    {
+      "psnr": 30.248075779739303,
+      "ssim": 0.8254420757293701,
+      "detail": 0.4851386792970724,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Real-ESRGAN AnimeVideo v3"
+    },
+    {
+      "psnr": 28.99772430092098,
+      "ssim": 0.8064333200454712,
+      "detail": 0.4831097610983381,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "Real-ESRGAN General v3"
+    },
+    {
+      "psnr": 28.64241974041441,
+      "ssim": 0.7974154949188232,
+      "detail": 0.5914010102853552,
+      "image": "sonoma_horizon_4k",
+      "degradation": "bicubic+jpeg45",
+      "method": "SPAN 2x NomosUni (multi-JPEG)"
+    }
+  ],
+  "flicker": {
+    "Bicubic": 1.8029643036425114,
+    "Real-ESRGAN AnimeVideo v3": 1.839952350128442,
+    "Real-ESRGAN General v3": 2.2213197173550725,
+    "SPAN 2x NomosUni (multi-JPEG)": 2.0297988317906857
+  },
+  "speed": [
+    {
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU",
+      "error": "process exited with -5 (SIGTRAP crash inside Core ML)"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 65.44154207222164,
+      "p90_ms": 65.5435252469033,
+      "first_ms": 95.32774984836578,
+      "load_s": 0.13843464851379395,
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 148.05700001306832,
+      "p90_ms": 148.4083083923906,
+      "first_ms": 178.10970800928771,
+      "load_s": 0.13843464851379395,
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 259.85349994152784,
+      "p90_ms": 261.7179831955582,
+      "first_ms": 295.23175000213087,
+      "load_s": 0.13843464851379395,
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 39.652833016589284,
+      "p90_ms": 39.94705029763281,
+      "first_ms": 42.08062496036291,
+      "load_s": 8.89847993850708,
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 88.98016600869596,
+      "p90_ms": 90.8437583129853,
+      "first_ms": 129.5593329705298,
+      "load_s": 8.89847993850708,
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 157.52333402633667,
+      "p90_ms": 158.95650810562074,
+      "first_ms": 214.0779998153448,
+      "load_s": 8.89847993850708,
+      "model": "realesr-animevideov3-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 38.707292173057795,
+      "p90_ms": 39.06976655125618,
+      "first_ms": 56.59225000999868,
+      "load_s": 8.529143810272217,
+      "model": "realesr-animevideov3-x2",
+      "units": "ALL"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 87.58566691540182,
+      "p90_ms": 89.43989994004369,
+      "first_ms": 144.54008312895894,
+      "load_s": 8.529143810272217,
+      "model": "realesr-animevideov3-x2",
+      "units": "ALL"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 155.16750002279878,
+      "p90_ms": 157.7547995839268,
+      "first_ms": 218.9606660977006,
+      "load_s": 8.529143810272217,
+      "model": "realesr-animevideov3-x2",
+      "units": "ALL"
+    },
+    {
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU",
+      "error": "process exited with -5 (SIGTRAP crash inside Core ML)"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 123.68879187852144,
+      "p90_ms": 125.04133312031627,
+      "first_ms": 156.6629169974476,
+      "load_s": 0.1511368751525879,
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 279.6681660693139,
+      "p90_ms": 280.4092083591968,
+      "first_ms": 315.1736669242382,
+      "load_s": 0.1511368751525879,
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 491.94541620090604,
+      "p90_ms": 494.4972588215023,
+      "first_ms": 534.2580419965088,
+      "load_s": 0.1511368751525879,
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 71.42100017517805,
+      "p90_ms": 71.65139955468476,
+      "first_ms": 79.72720800898969,
+      "load_s": 13.932250261306763,
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 159.10145896486938,
+      "p90_ms": 161.27007543109357,
+      "first_ms": 221.67125018313527,
+      "load_s": 13.932250261306763,
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 284.3434999231249,
+      "p90_ms": 286.47161638364196,
+      "first_ms": 343.38458394631743,
+      "load_s": 13.932250261306763,
+      "model": "realesr-general-x4v3-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 71.7359590344131,
+      "p90_ms": 72.50354150310159,
+      "first_ms": 86.71691687777638,
+      "load_s": 13.914788246154785,
+      "model": "realesr-general-x4v3-x2",
+      "units": "ALL"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 159.67612504027784,
+      "p90_ms": 160.6964918319136,
+      "first_ms": 215.98750003613532,
+      "load_s": 13.914788246154785,
+      "model": "realesr-general-x4v3-x2",
+      "units": "ALL"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 283.28237496316433,
+      "p90_ms": 288.35169998928905,
+      "first_ms": 341.24620887450874,
+      "load_s": 13.914788246154785,
+      "model": "realesr-general-x4v3-x2",
+      "units": "ALL"
+    },
+    {
+      "model": "span-nomosuni-x2",
+      "units": "CPU",
+      "error": "process exited with -5 (SIGTRAP crash inside Core ML)"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 59.327084105461836,
+      "p90_ms": 59.42153334617615,
+      "first_ms": 90.72995791211724,
+      "load_s": 0.13610506057739258,
+      "model": "span-nomosuni-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 132.68508296459913,
+      "p90_ms": 132.87729993462563,
+      "first_ms": 166.44670884124935,
+      "load_s": 0.13610506057739258,
+      "model": "span-nomosuni-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 234.9307080730796,
+      "p90_ms": 261.91676636226475,
+      "first_ms": 287.7993748988956,
+      "load_s": 0.13610506057739258,
+      "model": "span-nomosuni-x2",
+      "units": "CPU+GPU"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 25.221124989911914,
+      "p90_ms": 27.010566741228104,
+      "first_ms": 34.26650003530085,
+      "load_s": 6.132723808288574,
+      "model": "span-nomosuni-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 54.11150003783405,
+      "p90_ms": 55.03599978983402,
+      "first_ms": 145.93408396467566,
+      "load_s": 6.132723808288574,
+      "model": "span-nomosuni-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 96.01708292029798,
+      "p90_ms": 102.88421628065407,
+      "first_ms": 171.5384591370821,
+      "load_s": 6.132723808288574,
+      "model": "span-nomosuni-x2",
+      "units": "CPU+ANE"
+    },
+    {
+      "input": "640x360",
+      "runs": 15,
+      "median_ms": 24.074333952739835,
+      "p90_ms": 24.49222505092621,
+      "first_ms": 49.42816705442965,
+      "load_s": 5.687896966934204,
+      "model": "span-nomosuni-x2",
+      "units": "ALL"
+    },
+    {
+      "input": "960x540",
+      "runs": 15,
+      "median_ms": 54.250708082690835,
+      "p90_ms": 56.27333354204893,
+      "first_ms": 117.36875004135072,
+      "load_s": 5.687896966934204,
+      "model": "span-nomosuni-x2",
+      "units": "ALL"
+    },
+    {
+      "input": "1280x720",
+      "runs": 15,
+      "median_ms": 94.64737493544817,
+      "p90_ms": 95.92987466603518,
+      "first_ms": 173.80749993026257,
+      "load_s": 5.687896966934204,
+      "model": "span-nomosuni-x2",
+      "units": "ALL"
+    }
+  ],
+  "images": [
+    "images/sr_aerial_4k.png",
+    "images/sr_sonoma_crop_4k.png",
+    "images/sr_sonoma_horizon_4k.png"
+  ],
+  "reduced_input": [
+    {
+      "psnr": 32.90253698409534,
+      "ssim": 0.8799511790275574,
+      "detail": 0.6064039234376876,
+      "image": "aerial_4k",
+      "method": "Lanczos 720p\u21921440p (classical)"
+    },
+    {
+      "psnr": 29.46301386343186,
+      "ssim": 0.8640667796134949,
+      "detail": 0.7751571600143549,
+      "image": "aerial_4k",
+      "method": "AI full input: SPAN \u00d72"
+    },
+    {
+      "psnr": 30.307779317203206,
+      "ssim": 0.8495994806289673,
+      "detail": 0.7482257656281129,
+      "image": "aerial_4k",
+      "method": "AI full input: General v3 \u00d72"
+    },
+    {
+      "psnr": 31.785435259939852,
+      "ssim": 0.8802376985549927,
+      "detail": 0.617450814844034,
+      "image": "aerial_4k",
+      "method": "AI full input: AnimeVideo v3 \u00d72"
+    },
+    {
+      "psnr": 30.0758515215091,
+      "ssim": 0.8227581977844238,
+      "detail": 0.4282247861323354,
+      "image": "aerial_4k",
+      "method": "360p input: AnimeVideo v3 \u00d74"
+    },
+    {
+      "psnr": 29.011587143441176,
+      "ssim": 0.8140770792961121,
+      "detail": 0.6245418071746984,
+      "image": "aerial_4k",
+      "method": "360p input: General v3 \u00d74"
+    },
+    {
+      "psnr": 30.223423047489803,
+      "ssim": 0.8477213978767395,
+      "detail": 0.6751431577147848,
+      "image": "aerial_4k",
+      "method": "540p input: General v3 \u00d72 + Lanczos"
+    },
+    {
+      "psnr": 45.253653624313344,
+      "ssim": 0.9838359951972961,
+      "detail": 0.23424412379741258,
+      "image": "sonoma_crop_4k",
+      "method": "Lanczos 720p\u21921440p (classical)"
+    },
+    {
+      "psnr": 33.61373041986654,
+      "ssim": 0.9822995066642761,
+      "detail": 0.7809941260521633,
+      "image": "sonoma_crop_4k",
+      "method": "AI full input: SPAN \u00d72"
+    },
+    {
+      "psnr": 42.92110829203801,
+      "ssim": 0.9872530102729797,
+      "detail": 0.43081217840275177,
+      "image": "sonoma_crop_4k",
+      "method": "AI full input: General v3 \u00d72"
+    },
+    {
+      "psnr": 35.44527401237188,
+      "ssim": 0.9856159090995789,
+      "detail": 0.3720248134247431,
+      "image": "sonoma_crop_4k",
+      "method": "AI full input: AnimeVideo v3 \u00d72"
+    },
+    {
+      "psnr": 35.45487642352873,
+      "ssim": 0.9851662516593933,
+      "detail": 0.46573852535864496,
+      "image": "sonoma_crop_4k",
+      "method": "360p input: AnimeVideo v3 \u00d74"
+    },
+    {
+      "psnr": 43.29221274734615,
+      "ssim": 0.9844881296157837,
+      "detail": 0.6408254621057998,
+      "image": "sonoma_crop_4k",
+      "method": "360p input: General v3 \u00d74"
+    },
+    {
+      "psnr": 43.32190588376107,
+      "ssim": 0.986557126045227,
+      "detail": 0.40215532698824996,
+      "image": "sonoma_crop_4k",
+      "method": "540p input: General v3 \u00d72 + Lanczos"
+    },
+    {
+      "psnr": 30.98674430567994,
+      "ssim": 0.8341540098190308,
+      "detail": 0.4920845406508728,
+      "image": "sonoma_horizon_4k",
+      "method": "Lanczos 720p\u21921440p (classical)"
+    },
+    {
+      "psnr": 28.81777213690768,
+      "ssim": 0.8095408082008362,
+      "detail": 0.6159159088906201,
+      "image": "sonoma_horizon_4k",
+      "method": "AI full input: SPAN \u00d72"
+    },
+    {
+      "psnr": 29.258802891380135,
+      "ssim": 0.819862961769104,
+      "detail": 0.5112390025495729,
+      "image": "sonoma_horizon_4k",
+      "method": "AI full input: General v3 \u00d72"
+    },
+    {
+      "psnr": 30.605697915389914,
+      "ssim": 0.8391944169998169,
+      "detail": 0.5085770443271572,
+      "image": "sonoma_horizon_4k",
+      "method": "AI full input: AnimeVideo v3 \u00d72"
+    },
+    {
+      "psnr": 28.886119492154148,
+      "ssim": 0.7811633944511414,
+      "detail": 0.3374646311732701,
+      "image": "sonoma_horizon_4k",
+      "method": "360p input: AnimeVideo v3 \u00d74"
+    },
+    {
+      "psnr": 28.295985604377726,
+      "ssim": 0.7820466756820679,
+      "detail": 0.38347019182342246,
+      "image": "sonoma_horizon_4k",
+      "method": "360p input: General v3 \u00d74"
+    },
+    {
+      "psnr": 29.07174453923337,
+      "ssim": 0.8131572008132935,
+      "detail": 0.46148345236701144,
+      "image": "sonoma_horizon_4k",
+      "method": "540p input: General v3 \u00d72 + Lanczos"
+    }
+  ]
+}

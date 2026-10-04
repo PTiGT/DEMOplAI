@@ -1,0 +1,341 @@
+{
+  "consistency": [
+    {
+      "psnr": 29.46301386343186,
+      "ssim": 0.8640667796134949,
+      "detail": 0.7751571600143549,
+      "model": "span-nomosuni-x2",
+      "variant": "raw",
+      "image": "aerial_4k",
+      "mean_rgb_bias": [
+        -4.389999866485596,
+        -6.429999828338623,
+        -7.179999828338623
+      ]
+    },
+    {
+      "psnr": 32.64216277386314,
+      "ssim": 0.8693670630455017,
+      "detail": 0.7892610677202427,
+      "model": "span-nomosuni-x2",
+      "variant": "consistency",
+      "image": "aerial_4k",
+      "mean_rgb_bias": [
+        0.2199999988079071,
+        -0.09000000357627869,
+        0.1599999964237213
+      ]
+    },
+    {
+      "psnr": 31.785435259939852,
+      "ssim": 0.8802376985549927,
+      "detail": 0.617450814844034,
+      "model": "realesr-animevideov3-x2",
+      "variant": "raw",
+      "image": "aerial_4k",
+      "mean_rgb_bias": [
+        1.0800000429153442,
+        2.740000009536743,
+        3.2799999713897705
+      ]
+    },
+    {
+      "psnr": 33.01699380013794,
+      "ssim": 0.884169340133667,
+      "detail": 0.6221013826356185,
+      "model": "realesr-animevideov3-x2",
+      "variant": "consistency",
+      "image": "aerial_4k",
+      "mean_rgb_bias": [
+        0.2199999988079071,
+        -0.09000000357627869,
+        0.1599999964237213
+      ]
+    },
+    {
+      "psnr": 30.307779317203206,
+      "ssim": 0.8495994806289673,
+      "detail": 0.7482257656281129,
+      "model": "realesr-general-x4v3-x2",
+      "variant": "raw",
+      "image": "aerial_4k",
+      "mean_rgb_bias": [
+        -0.6299999952316284,
+        -0.2800000011920929,
+        2.0299999713897705
+      ]
+    },
+    {
+      "psnr": 31.657153612639743,
+      "ssim": 0.8662229776382446,
+      "detail": 0.7741354245207871,
+      "model": "realesr-general-x4v3-x2",
+      "variant": "consistency",
+      "image": "aerial_4k",
+      "mean_rgb_bias": [
+        0.2199999988079071,
+        -0.09000000357627869,
+        0.1599999964237213
+      ]
+    },
+    {
+      "psnr": 33.61373041986654,
+      "ssim": 0.9822995066642761,
+      "detail": 0.7809941260521633,
+      "model": "span-nomosuni-x2",
+      "variant": "raw",
+      "image": "sonoma_crop_4k",
+      "mean_rgb_bias": [
+        -5.230000019073486,
+        -5.110000133514404,
+        -5.369999885559082
+      ]
+    },
+    {
+      "psnr": 45.92457929965587,
+      "ssim": 0.9827805161476135,
+      "detail": 0.7844003028667116,
+      "model": "span-nomosuni-x2",
+      "variant": "consistency",
+      "image": "sonoma_crop_4k",
+      "mean_rgb_bias": [
+        0.20000000298023224,
+        -0.03999999910593033,
+        0.28999999165534973
+      ]
+    },
+    {
+      "psnr": 35.44527401237188,
+      "ssim": 0.9856159090995789,
+      "detail": 0.3720248134247431,
+      "model": "realesr-animevideov3-x2",
+      "variant": "raw",
+      "image": "sonoma_crop_4k",
+      "mean_rgb_bias": [
+        4.150000095367432,
+        3.2899999618530273,
+        2.819999933242798
+      ]
+    },
+    {
+      "psnr": 45.45906730959174,
+      "ssim": 0.9859374761581421,
+      "detail": 0.38207095206743463,
+      "model": "realesr-animevideov3-x2",
+      "variant": "consistency",
+      "image": "sonoma_crop_4k",
+      "mean_rgb_bias": [
+        0.20000000298023224,
+        -0.03999999910593033,
+        0.28999999165534973
+      ]
+    },
+    {
+      "psnr": 42.92110829203801,
+      "ssim": 0.9872530102729797,
+      "detail": 0.43081217840275177,
+      "model": "realesr-general-x4v3-x2",
+      "variant": "raw",
+      "image": "sonoma_crop_4k",
+      "mean_rgb_bias": [
+        1.2599999904632568,
+        1.190000057220459,
+        0.6000000238418579
+      ]
+    },
+    {
+      "psnr": 45.963180554961156,
+      "ssim": 0.9868108630180359,
+      "detail": 0.4418693472861605,
+      "model": "realesr-general-x4v3-x2",
+      "variant": "consistency",
+      "image": "sonoma_crop_4k",
+      "mean_rgb_bias": [
+        0.20000000298023224,
+        -0.03999999910593033,
+        0.28999999165534973
+      ]
+    },
+    {
+      "psnr": 28.81777213690768,
+      "ssim": 0.8095408082008362,
+      "detail": 0.6159159088906201,
+      "model": "span-nomosuni-x2",
+      "variant": "raw",
+      "image": "sonoma_horizon_4k",
+      "mean_rgb_bias": [
+        -3.759999990463257,
+        -5.019999980926514,
+        -3.0299999713897705
+      ]
+    },
+    {
+      "psnr": 30.74615705058037,
+      "ssim": 0.8242332935333252,
+      "detail": 0.6362807233763305,
+      "model": "span-nomosuni-x2",
+      "variant": "consistency",
+      "image": "sonoma_horizon_4k",
+      "mean_rgb_bias": [
+        0.12999999523162842,
+        -0.03999999910593033,
+        0.5099999904632568
+      ]
+    },
+    {
+      "psnr": 30.605697915389914,
+      "ssim": 0.8391944169998169,
+      "detail": 0.5085770443271572,
+      "model": "realesr-animevideov3-x2",
+      "variant": "raw",
+      "image": "sonoma_horizon_4k",
+      "mean_rgb_bias": [
+        1.2300000190734863,
+        1.1799999475479126,
+        2.4000000953674316
+      ]
+    },
+    {
+      "psnr": 31.17237418058825,
+      "ssim": 0.8416258096694946,
+      "detail": 0.5030058933533921,
+      "model": "realesr-animevideov3-x2",
+      "variant": "consistency",
+      "image": "sonoma_horizon_4k",
+      "mean_rgb_bias": [
+        0.12999999523162842,
+        -0.03999999910593033,
+        0.5099999904632568
+      ]
+    },
+    {
+      "psnr": 29.258802891380135,
+      "ssim": 0.819862961769104,
+      "detail": 0.5112390025495729,
+      "model": "realesr-general-x4v3-x2",
+      "variant": "raw",
+      "image": "sonoma_horizon_4k",
+      "mean_rgb_bias": [
+        -3.5,
+        -1.9600000381469727,
+        -0.4000000059604645
+      ]
+    },
+    {
+      "psnr": 30.744672319378243,
+      "ssim": 0.8367048501968384,
+      "detail": 0.5464252279708386,
+      "model": "realesr-general-x4v3-x2",
+      "variant": "consistency",
+      "image": "sonoma_horizon_4k",
+      "mean_rgb_bias": [
+        0.12999999523162842,
+        -0.03999999910593033,
+        0.5
+      ]
+    }
+  ],
+  "stabilization": [
+    {
+      "model": "span-nomosuni-x2",
+      "variant": "raw",
+      "static_flicker": 0.4712905287742615,
+      "psnr": 33.38584719716852,
+      "ssim": 0.9860138893127441,
+      "detail": 1.3300485619059894
+    },
+    {
+      "model": "span-nomosuni-x2",
+      "variant": "consistency",
+      "static_flicker": 0.5379296541213989,
+      "psnr": 45.61517920751992,
+      "ssim": 0.9859820604324341,
+      "detail": 1.339019550050491
+    },
+    {
+      "model": "span-nomosuni-x2",
+      "variant": "stabilized",
+      "static_flicker": 0.22762320935726166,
+      "psnr": 33.4063064734343,
+      "ssim": 0.987493097782135,
+      "detail": 1.2366214998577365
+    },
+    {
+      "model": "span-nomosuni-x2",
+      "variant": "consistency+stabilized",
+      "static_flicker": 0.2655733525753021,
+      "psnr": 46.18428330074535,
+      "ssim": 0.9876473546028137,
+      "detail": 1.2456456077509164
+    },
+    {
+      "model": "realesr-animevideov3-x2",
+      "variant": "raw",
+      "static_flicker": 0.3567458987236023,
+      "psnr": 35.31877794226516,
+      "ssim": 0.9889482855796814,
+      "detail": 0.7687929288240435
+    },
+    {
+      "model": "realesr-animevideov3-x2",
+      "variant": "consistency",
+      "static_flicker": 0.4643977880477905,
+      "psnr": 44.564288303290766,
+      "ssim": 0.9890979528427124,
+      "detail": 0.788440866272535
+    },
+    {
+      "model": "realesr-animevideov3-x2",
+      "variant": "stabilized",
+      "static_flicker": 0.16910654306411743,
+      "psnr": 35.35211297367033,
+      "ssim": 0.9895645976066589,
+      "detail": 0.7054783947139841
+    },
+    {
+      "model": "realesr-animevideov3-x2",
+      "variant": "consistency+stabilized",
+      "static_flicker": 0.23129883408546448,
+      "psnr": 44.918566229497685,
+      "ssim": 0.9899699091911316,
+      "detail": 0.7233345020879847
+    },
+    {
+      "model": "realesr-general-x4v3-x2",
+      "variant": "raw",
+      "static_flicker": 0.338486909866333,
+      "psnr": 43.09997312013686,
+      "ssim": 0.9920516014099121,
+      "detail": 0.7981123861252899
+    },
+    {
+      "model": "realesr-general-x4v3-x2",
+      "variant": "consistency",
+      "static_flicker": 0.4739949405193329,
+      "psnr": 45.4557013702818,
+      "ssim": 0.9913225173950195,
+      "detail": 0.8209463667804475
+    },
+    {
+      "model": "realesr-general-x4v3-x2",
+      "variant": "stabilized",
+      "static_flicker": 0.158797487616539,
+      "psnr": 43.232813306921074,
+      "ssim": 0.9926153421401978,
+      "detail": 0.7050903922058186
+    },
+    {
+      "model": "realesr-general-x4v3-x2",
+      "variant": "consistency+stabilized",
+      "static_flicker": 0.23421211540699005,
+      "psnr": 45.87594763318255,
+      "ssim": 0.9922184944152832,
+      "detail": 0.7255597628719997
+    },
+    {
+      "model": "Bicubic",
+      "variant": "raw",
+      "static_flicker": 0.4042442739009857
+    }
+  ]
+}

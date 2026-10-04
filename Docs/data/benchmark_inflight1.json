@@ -1,0 +1,380 @@
+[
+  {
+    "averageFPS" : 29.579716202887678,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 360,
+        "width" : 640
+      },
+      "metalOutputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "modelID" : "span-nomosuni-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 3.2233756018755755,
+    "firstRunSeconds" : 0.0278244165237993,
+    "framesDropped" : 153,
+    "framesOffered" : 301,
+    "framesProcessed" : 148,
+    "gpuBusyPercent" : 4.619070101663151,
+    "inferenceMeanMs" : 24.418316672866542,
+    "inferenceMedianMs" : 24.128374876454473,
+    "inferenceP95Ms" : 26.505874935537577,
+    "loadSeconds" : 0.07314395904541016,
+    "modelName" : "SPAN 2x NomosUni (multi-JPEG) ×2",
+    "outputSize" : {
+      "height" : 720,
+      "width" : 1280
+    },
+    "peakMemoryBytes" : 98583224,
+    "postprocessGPUMs" : 1.5010833740234375,
+    "preprocessGPUMs" : 0.07454166188836098,
+    "totalLatencyMedianMs" : 26.948333252221346
+  },
+  {
+    "averageFPS" : 15.189987266995105,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 540,
+        "width" : 960
+      },
+      "metalOutputSize" : {
+        "height" : 1080,
+        "width" : 1920
+      },
+      "modelID" : "span-nomosuni-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.8342513279086016,
+    "firstRunSeconds" : 0.12414845847524703,
+    "framesDropped" : 225,
+    "framesOffered" : 301,
+    "framesProcessed" : 76,
+    "gpuBusyPercent" : 4.992788052591155,
+    "inferenceMeanMs" : 50.115546609863244,
+    "inferenceMedianMs" : 50.06908322684467,
+    "inferenceP95Ms" : 50.982708344236016,
+    "loadSeconds" : 0.07314395904541016,
+    "modelName" : "SPAN 2x NomosUni (multi-JPEG) ×2",
+    "outputSize" : {
+      "height" : 1080,
+      "width" : 1920
+    },
+    "peakMemoryBytes" : 197935800,
+    "postprocessGPUMs" : 3.0247499234974384,
+    "preprocessGPUMs" : 0.17900019884109497,
+    "totalLatencyMedianMs" : 54.89295837469399
+  },
+  {
+    "averageFPS" : 10.19305063273454,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "metalOutputSize" : {
+        "height" : 1440,
+        "width" : 2560
+      },
+      "modelID" : "span-nomosuni-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.5372370867732563,
+    "firstRunSeconds" : 0.1642994584981352,
+    "framesDropped" : 250,
+    "framesOffered" : 301,
+    "framesProcessed" : 51,
+    "gpuBusyPercent" : 5.88172500594593,
+    "inferenceMeanMs" : 86.69061843287565,
+    "inferenceMedianMs" : 86.71295829117298,
+    "inferenceP95Ms" : 87.16229163110256,
+    "loadSeconds" : 0.07314395904541016,
+    "modelName" : "SPAN 2x NomosUni (multi-JPEG) ×2",
+    "outputSize" : {
+      "height" : 1440,
+      "width" : 2560
+    },
+    "peakMemoryBytes" : 351158968,
+    "postprocessGPUMs" : 5.690833320841193,
+    "preprocessGPUMs" : 0.2983750309795141,
+    "totalLatencyMedianMs" : 94.03725014999509
+  },
+  {
+    "averageFPS" : 20.185953099732117,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 360,
+        "width" : 640
+      },
+      "metalOutputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "modelID" : "realesr-animevideov3-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 1.0412851657415079,
+    "firstRunSeconds" : 0.04101220844313502,
+    "framesDropped" : 200,
+    "framesOffered" : 301,
+    "framesProcessed" : 101,
+    "gpuBusyPercent" : 3.3410592131618517,
+    "inferenceMeanMs" : 38.13044143849891,
+    "inferenceMedianMs" : 37.8437084145844,
+    "inferenceP95Ms" : 39.928624872118235,
+    "loadSeconds" : 0.04207909107208252,
+    "modelName" : "Real-ESRGAN AnimeVideo v3 ×2",
+    "outputSize" : {
+      "height" : 720,
+      "width" : 1280
+    },
+    "peakMemoryBytes" : 321913528,
+    "postprocessGPUMs" : 1.8022500444203615,
+    "preprocessGPUMs" : 0.0724999699741602,
+    "totalLatencyMedianMs" : 41.13616677932441
+  },
+  {
+    "averageFPS" : 10.19297907618672,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 540,
+        "width" : 960
+      },
+      "metalOutputSize" : {
+        "height" : 1080,
+        "width" : 1920
+      },
+      "modelID" : "realesr-animevideov3-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.6513984689784224,
+    "firstRunSeconds" : 0.13222587504424155,
+    "framesDropped" : 250,
+    "framesOffered" : 301,
+    "framesProcessed" : 51,
+    "gpuBusyPercent" : 3.7428710865178183,
+    "inferenceMeanMs" : 83.32347058161508,
+    "inferenceMedianMs" : 83.04137480445206,
+    "inferenceP95Ms" : 85.63520829193294,
+    "loadSeconds" : 0.04207909107208252,
+    "modelName" : "Real-ESRGAN AnimeVideo v3 ×2",
+    "outputSize" : {
+      "height" : 1080,
+      "width" : 1920
+    },
+    "peakMemoryBytes" : 297796280,
+    "postprocessGPUMs" : 3.896166803315282,
+    "preprocessGPUMs" : 0.16837520524859428,
+    "totalLatencyMedianMs" : 88.4280416648835
+  },
+  {
+    "averageFPS" : 6.19581075440049,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "metalOutputSize" : {
+        "height" : 1440,
+        "width" : 2560
+      },
+      "modelID" : "realesr-animevideov3-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.4650183851623634,
+    "firstRunSeconds" : 0.19976470828987658,
+    "framesDropped" : 270,
+    "framesOffered" : 301,
+    "framesProcessed" : 31,
+    "gpuBusyPercent" : 3.6880380415035496,
+    "inferenceMeanMs" : 146.98988036252558,
+    "inferenceMedianMs" : 146.68133319355547,
+    "inferenceP95Ms" : 148.44416663981974,
+    "loadSeconds" : 0.04207909107208252,
+    "modelName" : "Real-ESRGAN AnimeVideo v3 ×2",
+    "outputSize" : {
+      "height" : 1440,
+      "width" : 2560
+    },
+    "peakMemoryBytes" : 353108664,
+    "postprocessGPUMs" : 5.702833412215114,
+    "preprocessGPUMs" : 0.3126249648630619,
+    "totalLatencyMedianMs" : 154.32108333334327
+  },
+  {
+    "averageFPS" : 12.191755122449953,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 360,
+        "width" : 640
+      },
+      "metalOutputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "modelID" : "realesr-general-x4v3-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.6280995696864532,
+    "firstRunSeconds" : 0.08289983333088458,
+    "framesDropped" : 240,
+    "framesOffered" : 301,
+    "framesProcessed" : 61,
+    "gpuBusyPercent" : 2.247772456099626,
+    "inferenceMeanMs" : 70.40418372260498,
+    "inferenceMedianMs" : 70.33816655166447,
+    "inferenceP95Ms" : 71.20262505486608,
+    "loadSeconds" : 0.045130014419555664,
+    "modelName" : "Real-ESRGAN General v3 ×2",
+    "outputSize" : {
+      "height" : 720,
+      "width" : 1280
+    },
+    "peakMemoryBytes" : 321995448,
+    "postprocessGPUMs" : 1.8232499714940786,
+    "preprocessGPUMs" : 0.07100007496774197,
+    "totalLatencyMedianMs" : 73.65641673095524
+  },
+  {
+    "averageFPS" : 5.995969709098113,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 540,
+        "width" : 960
+      },
+      "metalOutputSize" : {
+        "height" : 1080,
+        "width" : 1920
+      },
+      "modelID" : "realesr-general-x4v3-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.4707603848421156,
+    "firstRunSeconds" : 0.20738083333708346,
+    "framesDropped" : 271,
+    "framesOffered" : 301,
+    "framesProcessed" : 30,
+    "gpuBusyPercent" : 2.210644919998166,
+    "inferenceMeanMs" : 156.58900000465414,
+    "inferenceMedianMs" : 155.25170834735036,
+    "inferenceP95Ms" : 162.86437516100705,
+    "loadSeconds" : 0.045130014419555664,
+    "modelName" : "Real-ESRGAN General v3 ×2",
+    "outputSize" : {
+      "height" : 1080,
+      "width" : 1920
+    },
+    "peakMemoryBytes" : 297829048,
+    "postprocessGPUMs" : 3.561000106856227,
+    "preprocessGPUMs" : 0.16224989667534828,
+    "totalLatencyMedianMs" : 160.26495839469135
+  },
+  {
+    "averageFPS" : 3.5975949178672146,
+    "configuration" : {
+      "arrivalFPS" : 60,
+      "computeUnits" : "cpuAndNeuralEngine",
+      "duration" : 5,
+      "framesInFlight" : 1,
+      "inputSize" : {
+        "height" : 720,
+        "width" : 1280
+      },
+      "metalOutputSize" : {
+        "height" : 1440,
+        "width" : 2560
+      },
+      "modelID" : "realesr-general-x4v3-x2",
+      "postprocessing" : {
+        "consistency" : true,
+        "sharpen" : 0,
+        "stabilization" : true
+      }
+    },
+    "cpuPercent" : 0.3441797035763096,
+    "firstRunSeconds" : 0.3231428333092481,
+    "framesDropped" : 283,
+    "framesOffered" : 301,
+    "framesProcessed" : 18,
+    "gpuBusyPercent" : 2.1732554414458023,
+    "inferenceMeanMs" : 276.2498240917921,
+    "inferenceMedianMs" : 276.484583504498,
+    "inferenceP95Ms" : 278.33583345636725,
+    "loadSeconds" : 0.045130014419555664,
+    "modelName" : "Real-ESRGAN General v3 ×2",
+    "outputSize" : {
+      "height" : 1440,
+      "width" : 2560
+    },
+    "peakMemoryBytes" : 353174200,
+    "postprocessGPUMs" : 6.065750028938055,
+    "preprocessGPUMs" : 0.3068333026021719,
+    "totalLatencyMedianMs" : 283.7644584942609
+  }
+]

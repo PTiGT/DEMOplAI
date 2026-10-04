@@ -1,0 +1,17 @@
+.DS_Store
+.build/
+build/
+.swiftpm/
+*.xcodeproj/xcuserdata/
+DerivedData/
+.venv/
+__pycache__/
+
+# Generated test media (recreate with Tools/make_test_video.swift)
+TestMedia/
+
+# Source weights are re-downloaded by Tools/ml/download_models.py (revisions + SHA256 in manifest.json);
+# the converted Core ML packages in Models/*.mlpackage are committed so the app builds after a clone.
+Models/source/*
+!Models/source/manifest.json
+Models/*.mlmodelc

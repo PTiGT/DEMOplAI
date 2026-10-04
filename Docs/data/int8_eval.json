@@ -1,0 +1,62 @@
+[
+  {
+    "model": "span-nomosuni",
+    "input": "640x360",
+    "enumerated_fp16_ms": 23.966665845364332,
+    "fixed_fp16_ms": 22.9543331079185,
+    "fixed_w8a8_ms": 20.264916121959686,
+    "w8a8_vs_fp16_psnr": 40.363013851075,
+    "gt_psnr_fp16": 30.158187799872213,
+    "gt_psnr_w8a8": 29.321352040326
+  },
+  {
+    "model": "span-nomosuni",
+    "input": "960x540",
+    "enumerated_fp16_ms": 53.05050010792911,
+    "fixed_fp16_ms": 51.796916173771024,
+    "fixed_w8a8_ms": 47.0513750333339,
+    "w8a8_vs_fp16_psnr": 41.56108812884704,
+    "gt_psnr_fp16": 30.396418449288888,
+    "gt_psnr_w8a8": 30.367478562085648
+  },
+  {
+    "model": "span-nomosuni",
+    "input": "1280x720",
+    "enumerated_fp16_ms": 94.72258295863867,
+    "fixed_fp16_ms": 93.46154215745628,
+    "fixed_w8a8_ms": 84.42574995569885,
+    "w8a8_vs_fp16_psnr": 41.79277201304365,
+    "gt_psnr_fp16": 30.63150547340203,
+    "gt_psnr_w8a8": 30.072586311664107
+  },
+  {
+    "model": "realesr-animevideov3",
+    "input": "640x360",
+    "enumerated_fp16_ms": 40.06958403624594,
+    "fixed_fp16_ms": 39.54862500540912,
+    "fixed_w8a8_ms": 38.70579111389816,
+    "w8a8_vs_fp16_psnr": 44.042590089869556,
+    "gt_psnr_fp16": 31.858009551860146,
+    "gt_psnr_w8a8": 31.704938167815353
+  },
+  {
+    "model": "realesr-animevideov3",
+    "input": "960x540",
+    "enumerated_fp16_ms": 88.02316710352898,
+    "fixed_fp16_ms": 86.53145795688033,
+    "fixed_w8a8_ms": 87.74479106068611,
+    "w8a8_vs_fp16_psnr": 42.05122293249551,
+    "gt_psnr_fp16": 32.24451389333811,
+    "gt_psnr_w8a8": 32.01241690054177
+  },
+  {
+    "model": "realesr-animevideov3",
+    "input": "1280x720",
+    "enumerated_fp16_ms": 156.5054589882493,
+    "fixed_fp16_ms": 153.96624989807606,
+    "fixed_w8a8_ms": 156.54550003819168,
+    "w8a8_vs_fp16_psnr": 44.12827630324403,
+    "gt_psnr_fp16": 32.612135729233884,
+    "gt_psnr_w8a8": 32.506799021030794
+  }
+]
