@@ -57,6 +57,10 @@ Video → VideoToolbox (HW decode) → CVPixelBuffer (IOSurface) → Metal → C
 
 ## Сборка и запуск
 
+```bash
+git clone https://github.com/PTiGT/PlayerAiupDEMO.git && cd PlayerAiupDEMO
+```
+
 Нужны Swift toolchain (Command Line Tools или Xcode 16+) и macOS 15+. Модели в `Models/` уже сконвертированы.
 Скрипт сборки компилирует их в `.mlmodelc`, если есть Xcode, иначе приложение скомпилирует их при первом запуске.
 
