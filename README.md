@@ -58,7 +58,7 @@ Video → VideoToolbox (HW decode) → CVPixelBuffer (IOSurface) → Metal → C
 ## Сборка и запуск
 
 ```bash
-git clone https://github.com/PTiGT/PlayerAiupDEMO.git && cd PlayerAiupDEMO
+git clone https://github.com/PTiGT/DEMOplAI.git && cd DEMOplAI
 ```
 
 Нужны Swift toolchain (Command Line Tools или Xcode 16+) и macOS 15+. Модели в `Models/` уже сконвертированы.
